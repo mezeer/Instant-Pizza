@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700');
+
+
+div {
+  overflow: hidden;
+}
+
+body {
+ font-family: Montserrat !important;
+}
+
+footer{
+    background-color: lightgrey;
+    width: 100%;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+    border-radius: 15px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+.navbar {
+  overflow: hidden;
+  background-color: Red;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Montserrat ;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background: rgb(139, 14, 14);
+  color: white;
+}
+
+.active {
+  background-color: rgb(201, 53, 53);
+  color: white;
+}
+
+
+.parallax {
+  /* The image used */
+  background-image: url("https://www.dl.dropboxusercontent.com/s/ca30vnniijlwav2/backgroundPizza.jpg?dl=0");
+  
+
+  /* Set a specific height */
+  min-height: 1000px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.bigText {
+  color: white;
+  font-size: 98px;
+  vertical-align: middle;
+  text-align: center;
+  font-family: Montserrat;
+  padding: 15% 0 0 0;
+  font-weight: bold;
+
+}
+
+.aboutText {
+  color: black;
+  font-size: 36px;
+  padding: 0 25%;
+  text-align: center;
+}
+
+.box{
+	width: 50%;
+	height:5px;
+  margin: 0 25% 0 25%;
+}
+
+.black{
+	background: black;
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    float: right;
+  }
+  .topnav.responsive a .botnav {
+    float: middle;
+    display: block;
+
+  }
+}
+
+
+/* CSS for BOTnav (top toolbar) */
+.botnav {
+  overflow: hidden;
+  background-color: red;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.botnav a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.botnav a:hover {
+  background-color: #666666;
+  color: black;
+}
+
+
+.orderText {
+  color: black;
+  font-size: 36px;
+  padding: 20px;
+  text-align: center;
+}
+
+.botNavImg {
+  max-width: 25%; 
+}
+
+
+
+.contactFrame {
+  text-align: center;
+  height: 250px;
+
+  background-position: center;
+  background-size: cover; 
+  padding: 25% 0;
+}
+
+
+.contactHead {
+  padding: 15px;
+  color: black;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.contactText {
+  color: black;
+  
+}
+
+@media (max-width: 500px) {
+  .contactFrame {
+    padding: 40% 0;
+  }
+  .aboutText {
+    font-size: 18px;
+  }
+  .bigText {
+    font-size: 72px;
+  }
+
+}
+
+
+
+
+/* BUTTONS */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none;
+  outline: black; /* Remove outline */
+  background-color: rgb(255, 52, 52); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px;/* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
